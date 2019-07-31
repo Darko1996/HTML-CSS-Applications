@@ -1,0 +1,483 @@
+/* login forma css */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.Login:hover {
+    background-color: #ed1c24 !important;
+    color: #fff;
+    cursor: pointer;
+}
+.Login {
+    padding: .5em;
+    margin-top: .7em;
+    background-color: #d80a0a !important;
+
+    color: #fff;
+    transition: .5s;
+}
+
+.login-page {
+  padding: 8% 0 0;
+  margin: auto;
+  
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: .5em;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: cornflowerblue;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background:#0273ea;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+/* kraj login forme */
+
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,"AppleGothic",sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color:#fff;
+    background-image: url(Slike/blur1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333;
+}
+#showcase ul a{
+    color: white;
+}
+a{
+    color: #ed1c24;
+    font-style: none;
+    text-decoration: none;
+}
+
+#section-a ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    z-index: -1;
+}
+#section-b ul{
+    list-style: none;
+}
+#section-c ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* header */
+#showcase{
+    height: 270px;
+    margin: 0;
+    padding: 0;
+    box-shadow: inset -5px -3px 18px 0px black;
+    background-color: #333; 
+    transition: .2s ease-in-out;
+    z-index: 999;  
+}
+.showcase2{
+    height: 110px !important;
+    position: fixed;
+    width: 100%; 
+    background-color: #333; 
+    transition: .3s ease-in-out !important;
+    box-shadow: -1px 1px 15px black !important;
+    z-index: 999;  
+}
+.showcase2 img {
+    height: 120px !important;
+    float: left;
+    margin-left: 20%;
+    transition: .2s ease-in-out;
+}
+.showcase2 .trakica{
+    display: none;
+}
+.showcase2 .trakica2{
+    display: none;
+}
+.navTekst2{
+    background-color: #333 !important;
+    margin-top: 3%;
+}
+.navTekst{
+    background-color: #191313;
+}
+#showcase ul li{
+    display: inline-block;
+    padding-left: .5em;
+    padding-right: .5em;
+    text-decoration: none;
+    padding-bottom: .5em;
+    padding-top: .5em; 
+    z-index: 999; 
+    transition: .3s ease-in-out;
+}
+#showcase ul li:hover{
+    color: #ff0000ff;
+    cursor: pointer;
+    box-shadow: 0px -1px #ff0000ff;
+}
+#showcase img{
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+.trakica2{
+    background: url(Slike/traka1.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 30%;
+    float: right;
+    margin-top: -16.3em;
+    box-shadow: 20px 1px 20px 0px black;
+}
+
+.trakica2 i {
+    font-size: 25px;
+    padding-right: .5em;
+    margin-top: -1em;
+}
+.trakica2 p{
+    padding-left: .5em;
+}
+.trakica{
+    background: url(Slike/traka2.png);
+    background-size:100%;
+    position: absolute;
+    top: -1px;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 30%;
+    box-shadow: -20px -1px 20px 0px black;
+}
+.trakica i{
+    font-size: 25px;
+    transition: .45s ease-in-out;
+    padding-right: .5em;
+    margin-top: -1em;
+}
+
+/* kraj headera */
+
+/* sadrzaj */
+.strelica{
+    position: fixed;
+    z-index: 999;
+    top: 90%;
+    left: 95%;
+}
+.strelica i{
+    font-size: 40px;
+    color: #ed1c24;
+    transition: .5s;
+}
+.strelica i:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/* footer glavni */
+
+.ikonice i{
+    color: #ed1c24;
+    font-size: 30px;
+    padding: .2em;
+    transition: .5s;
+}
+.ikonice i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.ikonice{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.end-footer{
+    background-color: #100b0b;
+}
+.end-footer p{
+    display: inline-block;
+}
+
+/* za mobilne telefone */
+@media(max-width:700px){
+    /* header pocetak */
+    
+    #showcase img{
+        height: 140px;
+        margin-left: -1em;
+    }
+    #showcase ul li{
+        font-size: 15px;
+        display: inline;
+    }
+    #showcase ul li:hover{
+        box-shadow: 0px 0px 0px 0px;
+    }
+    #showcase{
+        height: 190px;
+        box-shadow: 0px 0px 0px 0px;
+        transition: 0s;
+    }
+    .showcase2{
+        height: 100%;
+    }
+    .showcase2 img{
+        height: 90px !important;
+        margin-top: 1em;
+        float: none;
+        
+    }
+    #showcase2 ul li{
+        font-size: 12px;
+        padding: 0;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-top: .3em;
+        padding-bottom: .3em;
+    }
+    .navTekst2{
+        transition: 0s;
+        margin-top: -1.3em;
+        background-color: #191313 !important;
+        height: 35px;
+    }
+    .navTekst2 ul{
+        width: 103%;
+    }
+    .navTekst ul{
+        margin-left: -12%;
+        margin-bottom: 0;
+    }
+    /* header kraj */
+
+    /* pocetak footer-a */
+    
+    .proizvodi h2::after{
+        display: none;
+    }
+    .strelica{
+        left: 85%;
+    }
+    .ikonice{
+        position: inherit;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .darpet-link{
+        display: inline-grid;
+    }
+    .end-footer{
+        padding-bottom: 1em;
+    }
+     /* kraj footer-a */
+
+
+
+     /*  pocetak sadrzaj */
+
+
+/* kraj sadrzaja */
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+    .strelica{
+        left: 90%;
+    }
+    #showcase img{
+        margin-top: 2em;
+    }
+    .showcase2{
+        margin-top: -4% !important;
+        transition: 0s;
+    }
+    .showcase2 img{
+        margin-top: 0em !important;
+        margin-left: 10%;
+    }
+    #showcase{
+        box-shadow: 0px 0px 0px 0px;
+        height: 100%;
+        transition: 0s;
+    }
+    .navTekst2{
+        margin-top: 5%;
+        transition: 0s;
+    }
+    .trakica2{
+        margin-top: -18.1em;
+    }
+    .trakica2 p {
+        font-size: 14px;
+    }
+    .pozadina img{
+        display: none;
+    }
+    .proizvodi h2::after{
+        margin-left: 10em;
+    }
+    #showcase ul li:hover{
+        box-shadow: 0px 0px 0px 0px;
+    }
+    
+
+
+
+    /* sadrzaj */
+    
+}
+
+/* responsive za vece rezolucije 4k */
+@media screen and (min-width: 1600px) {
+    .navTekst2{
+        margin-top: 2%;
+    }
+  }
+    @media screen and (min-width: 1900px) {
+        
+    }
+    @media (min-width: 2000px) {
+        .proizvodi h2::after{
+            margin-left: 45.9em;
+        }
+        .login-page{
+            margin-top: -6em;
+        }
+        
+        .navTekst ul{
+            padding: 1em;
+        }
+        #showcase{
+            height: 400px;
+        }
+        #showcase img{
+            height: 300px;
+        }
+        #showcase ul li{
+            padding-top: 0em;
+            font-size: 28px;
+        }
+        .showcase2 img {
+            height: 170px !important;
+            margin-top: -.3em;
+        }
+        .showcase2{
+            height: 150px !important;
+        }
+        .navTekst2 {
+            margin-top: 2em;
+        }
+        .trakica{
+            height: 4em;
+        }
+        .trakica i{
+            font-size: 35px;
+        }
+        .trakica2{
+            margin-top: -24.6em;
+            height: 4em;
+        }
+        .trakica2 i{
+            font-size: 35px;
+            margin-top: -.1em;
+        }
+        .trakica p{
+            font-size: 27px;
+            margin-top: .6em;
+        }
+        .trakica2 p{
+            font-size: 27px;
+            margin-top: .7em;
+        }
+        #showcase ul li:hover{
+            box-shadow: 0 0;
+        }
+        
+    }
