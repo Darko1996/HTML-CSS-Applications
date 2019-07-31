@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Darpet</title>
+
+
+	<script type="text/javascript" src="JS/jquery-3.2.1.js"></script>
+	<link rel="icon" href="CSS/Slike/ikonica.png">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="JS/Javaskripta.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="CSS/css.css">
+
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+	
+<script type="text/javascript"> /* animirani nav bar */
+	
+$(window).on('scroll',function(){
+		if($(window).scrollTop()){
+			$('#navBar').addClass('black');
+		}
+		else{
+			$('#navBar').removeClass('black');
+		}
+
+	})
+</script>
+<script type="text/javascript">  /* animirani contact bar */
+	
+	$(window).on('scroll',function(){
+	if ($(window).scrollTop()) {
+		$('#contact').addClass('contactAnm');
+	}
+	else {
+		$('#contact').removeClass('contactAnm');
+	}
+})
+</script>
+
+</head>
+
+
+<header>
+	
+		
+</header>
+
+<body>
+
+<div id="navBar">
+		<div class="logo"><a href="#particles-js"><img src="CSS\Slike/Logo3.png"></a></div>
+		<div class="navPozadina"></div>
+		<a href="#opis"><p id="navAbout">About us</p></a>
+		<a href="#contact"><p id="navContact">Contact</p></a>
+	
+	</div>
+<script type="text/javascript">
+	$(window).on('scroll',function(){
+		if($(window).scrollTop()){
+			$('.logo').addClass('logoAnm');
+		}
+		else{
+			$('.logo').removeClass('logoAnm');
+		}
+	});
+</script>
+
+<!-- Pocetak animirane pozadine -->
+<div id="particles-js">
+	<div class="naslovCitat">
+	<p class="naslov">Web Design and Development</p>
+	<p class="citat">“Design is a plan for arranging elements in such a way as best to accomplish a particular purpose.” - Charles Eames</p>
+	</div>
+</div>	
+<script type="text/javascript" src="CSS/particles.js"></script>
+<script type="text/javascript" src="CSS/app.js"></script>
+<!-- kraj animirane pozadine -->
+
+<div class="strelicaGore">
+	<a href="#particles-js"><i class="fas fa-angle-up" style="padding: 10px;font-size: 70px;"></i></a>
+</div>
+<script type="text/javascript">
+	$(window).on('scroll',function(){
+		if($(window).scrollTop()){
+			$('.strelicaGore').addClass('strelicaAnm');
+		}
+		else {
+			$('.strelicaGore').removeClass('strelicaAnm');
+		}
+	});
+</script>
+
+</body>
+<div id="opis">
+	<ul>
+		<li><i class="fas fa-thumbs-up" style="position: relative;margin-top: 5%;top: 10px;left: -5px;"></i><h3>We get awesome results</h3><p>Check out client success stories and testimonials. We have seen great successes with everyone from high-tech companies to local dentists.</p></li>
+		<li><i class="fas fa-comments"style="position: relative;top: 10px;margin-top: 3%;left: -5px;"></i><h3>We keep you in the loop</h3><p>Client communication is always a priority. Darpet team members will make sure you know how your campaign is performing and involve you throughout the process.</p></li>
+		<li><i class="fas fa-building"style="position: relative;top: 15px;margin-top: 1%;left: -5px;"></i><h3>We work with businesses of all shapes and sizes</h3><p>Every business and industry requires a specific targeted approach. We have experience working with large and small businesses and are ready to develop a targeted strategy and plan that’s just right for you.</p></li>
+		<li><i class="fas fa-puzzle-piece"style="position: relative;top: 10px;margin-top: 3%;left: -5px;"></i><h3>We are part of your team</h3><p>Use our services to augment your current marketing efforts. Our teams are flexible and can work within your current company structure. We can be an extension of your marketing team, or your entire team.</p></li>
+	</ul>
+</div>
+
+
+<div class="contact">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<section  id="contact" class="content-section text-center">
+        <div class="contact-section">
+            <div class="container">
+              <h2 style="text-align: center;position: relative;top: 10px;">Contact Us</h2>
+              <p>Feel free to shout us by feeling the contact form or calling us on phone +381/66-9777-138 or +381/69-2736-450</p>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputName2"style="position: relative;top: 3px;">Name</label >
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter name"style="width: 360px;border-radius: 5px;height: 25px;">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail2" style="position: relative;top:5px;">Email</label><i class="far fa-envelope" style="border:0px solid white;position: relative;left: 10px;top: 5px;padding: 2px;border-radius: 5px;background-color:#ff3399;color:white; "></i>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"style="width: 332px;position: relative; left: 4px;border-radius: 5px;height: 25px;">
+                    </div>
+                    <div class="form-group ">
+                      <label for="exampleInputText" style="position: relative;top:font-size 5px;left: 170px;">Your Message</label>
+                     <textarea  class="form-control" placeholder="Description"></textarea> 
+                    </div>
+                    <button type="submit" class="btn btn-default"style="position: relative;left: 180px;top: 10px;height: 35px;border-radius: 10px;border:3px solid #ff3399;cursor: pointer;font color:#333333 !important;transition: 0.45s;"><p style="font color:#333333 !important;">Send Message</p></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+</div>
+
+
+<footer>
+	<p>Developed by DARPET, Copyright © 2018</p>
+	<div class="drustveneMreze" style="position: relative;left:74%;text-align: center;width: 100px; top: 43px;padding-bottom: 30px;">
+			<a href="https://www.facebook.com/darpet.development.3"><img src="CSS/Slike/facebook.png"class="facebook" style="height: 50px; width: 50px; position:absolute;left: 38px; top: -76px;transform: rotate(45deg);cursor: pointer;"></a>
+			<a href="https://www.instagram.com/darpetdevelopment/"><img src="CSS/Slike/instagram.png" class="instagram" style="height: 50px;width: 50px;position:absolute;left: 84px;top:-32px;transform: rotate(45deg);cursor: pointer;"></a>
+			<a href="https://plus.google.com/u/1/100088281815492682965?gl=rs"><img src="CSS/Slike/googleplus.png" class="google" style="height: 55px;width: 55px;position:absolute;left: 127px; top: -79px;transform: rotate(45deg);cursor: pointer;"></a>
+			<img src="CSS/Slike/linkin.png" class="linkin" style="height: 50px;width: 50px;position:absolute;left:176px;top:-32px;transform: rotate(45deg);cursor: pointer;">
+	</div>
+
+
+	<script>
+	$(document).ready(function(){
+
+	$(".facebook").mouseover(function(){
+	$(".facebook").animate({height:60, width:60},200);
+	/* $(".instagram").animate({top:-7,left:108});
+	$(".google").animate({top:-60,left:156});
+	$(".linkin").animate({top:-7,left:210}); */
+	});
+
+	$(".facebook").mouseout(function(){
+	$(".facebook").animate({height:50, width:50},100);
+	/* $(".instagram").animate({top:-16,left:99});
+	$(".google").animate({top:-69,left:147});
+	$(".linkin").animate({top:-16,left:201}); */
+	});
+
+	$(".instagram").mouseover(function(){
+	$(".instagram").animate({height:60, width:60},200);
+	/*$(".google").animate({left:-69,left:155});
+	$(".facebook").animate({left:49, top:-65});
+	$(".linkin").animate({top:-16,left:209}); */
+	});
+
+	$(".instagram").mouseout(function(){
+	$(".instagram").animate({height:50, width:50},200);
+	/* $(".google").animate({top:-69,left:147});
+	$(".facebook").animate({left:48, top:-66});
+	$(".linkin").animate({top:-15,left:200}); */
+	});
+
+	$(".google").mouseover(function(){
+	$(".google").animate({height:65, width:65},200);
+	/* $(".instagram").animate({left:100,top:-8});
+	$(".facebook").animate({left:49,top:-58});
+	$(".linkin").animate({top:-9,left:210});
+	*/
+	});
+	$(".google").mouseout(function(){
+	$(".google").animate({height:55, width:55},200);
+	/*$(".instagram").animate({left:99,top:-16});
+	$(".facebook").animate({left:48,top:-66});
+	$(".linkin").animate({top:-15,left:200});
+	*/
+	});
+	$(".linkin").mouseover(function(){
+	$(".linkin").animate({height:60, width:60},200);
+
+	});
+	$(".linkin").mouseout(function(){
+	$(".linkin").animate({height:50, width:50},200);
+	});	
+
+	});
+
+
+
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery da bi radio smoth scroll -->
+
+</footer>
+
+
+</html>

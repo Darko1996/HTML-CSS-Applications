@@ -1,0 +1,487 @@
+body{
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,"AppleGothic",sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+img{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+p{
+    margin: 0;
+    padding: 1.1em 0;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+.naslov{
+    position:absolute;
+    margin-top: 11.2em;
+    display:inline-block;
+    width: auto;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    font-size: 15px;
+    padding: 2em;
+    transition: .45s ease-in-out;
+
+}
+
+.strelica2{
+    font-size: 40px;
+    color: #333 !important;
+    transition: .45s ease-in-out;
+    z-index: 999;
+}
+.strelica2:hover{
+    cursor: pointer;
+    color: #ff2190 !important;
+}
+i.fas.fa-chevron-up{
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    transition: .45s ease-in-out;
+    color: transparent;
+    z-index: 999;
+}
+#portfolio{
+    display: inline;
+    
+}
+
+#portfolio img{
+    display: block;
+    height: 280px;
+    width: 100%;
+    overflow: hidden;
+}
+#portfolio img:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+
+#main-footer{
+    padding: 2em;
+    border-top: 1px solid #333;
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+}
+#main-footer p{
+    color: #333;
+    display: inline;
+}
+#main-footer a{
+    color: #ff2190;
+    text-decoration: none;
+}
+
+/* header showcase */
+.Showcase{
+    height: 140px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+.Showcase2{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo2{
+    height: 40px;
+    width: 120px;
+}
+.Showcase li{
+    list-style: none;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: .5em;
+}
+.Showcase li:hover{
+    color: #ff2190;
+    transition: .45s;
+}
+.Showcase img{
+    display: inline-block;
+    float: left;
+    height: 60px;
+    width: 150px;
+    margin-top:2.5em;
+    padding: .1em;
+
+}
+.Showcase2 img{
+    margin-top: .5em;
+}
+#section-a ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navTekst{
+margin: 0; 
+position: absolute;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+ul.navTekst2{
+    margin-top: 5.5%;
+}
+h2{
+    font-size: 1.2em;
+}
+h3{
+    color: #ff2190;
+    
+}
+
+.onama{
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+.onama p{
+    padding: 0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 1em;
+    
+}
+.onama ul li{
+    display: inline;
+    
+}
+.onama ul li i{
+    padding-left: .5em;
+}
+#particles-js{
+    height: 500px;
+    background-image: url(Slike/pozadina1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.kontaktforma{
+    position: relative;
+    left: -100em;
+    transition: 3s ease-in-out;
+}
+.kontaktforma2{
+    position: relative;
+    left: 0 !important;
+}
+/* kontakt forma */
+#hire{
+    padding-bottom: 3em;
+}
+   h1 {
+    margin-bottom: 40px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+  }
+  
+  form {
+    width: 58.3333333333%;
+    margin: 0 auto;
+    font-size: 52%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #B6B6B6;
+  }
+  form .field {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    
+  }
+  form .field label {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #313A3D;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1.45em;
+    letter-spacing: 0.075em;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form .field label + span {
+    font-family: 'SSStandard';
+    opacity: 0;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 7%;
+    font-size: 2.5em;
+    text-shadow: 1px 2px 0 #ff2190;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form .field input[type="text"],
+  form .field textarea {
+    border: none;
+    background: #E8E9EA;
+    width: 78%;
+    margin: 0;
+    padding: 18px 0;
+    padding-left: 22%;
+    color: #313A3D;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  form .field input[type="text"]#msg,
+  form .field textarea#msg {
+    height: 18px;
+    resize: none;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form .field input[type="text"]:focus, form .field input[type="text"].focused,
+  form .field textarea:focus,
+  form .field textarea.focused {
+    outline: none;
+  }
+  form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+  form .field textarea:focus#msg,
+  form .field textarea.focused#msg {
+    padding-bottom: 150px;
+  }
+  form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+  form .field textarea:focus + label,
+  form .field textarea.focused + label {
+    width: 20%;
+    background: #ff2190;
+    color: #313A3D;
+  }
+  form .field input[type="text"].focused + label,
+  form .field textarea.focused + label {
+    /* color: #ff21908; */
+  }
+  form .field:hover label {
+    width: 20%;
+    background: #313A3D;
+    color: white;
+  }
+  form input[type="submit"] {
+    background: #ff2190;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 13px 50px;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+  }
+  form input[type="submit"]:hover {
+    background: #313A3D;
+    color: #ff2190;
+  }
+  form input[type="submit"]:focus {
+    outline: none;
+    background: #ff2190;
+  }
+  form p{
+      font-size: 22px;
+      padding-top: 2em;
+  }
+  
+
+
+
+  @media(min-width:700px){
+    .Showcase{
+        transition: .45s ease-in-out;
+    }
+    .Showcase li{
+        font-size: 18px;
+        padding-right: .5em;
+    }
+    .Showcase2 li{
+        transition: .45s ease-in-out;
+        font-size: 15px;
+    }
+    .Showcase li:hover{
+        box-shadow: 0px 1px 0px 0px #ff2190;
+        transition: .45s ease-in-out;
+    }
+    .Showcase img{
+        height: 80px;
+        width: 200px;
+        margin-top: 2em;
+        margin-left: 10%;
+        transition: .45s ease-in-out;
+    }
+    .Showcase2 img{
+        margin-top: .5em;
+        margin-left: 10em;
+        height: 60px;
+        width: 180px;
+        transition: .45s ease-in-out;
+    }
+    ul.navTekst{
+        margin-left: 65%;
+        margin-top: 4.5%;
+    }
+    ul.navTekst2{
+        margin-left: 65%;
+        margin-top: 1.5%;
+    }
+    .naslov{
+        margin-top: 12em;
+        margin-left: 50%;
+        width: 40%;
+        box-shadow: 3px 3px 6px 0px #ff2190;
+    }
+    
+    .onama{
+        background:#e6e6e6;
+        padding-bottom: 2em;
+        height: 100;
+    }
+    .onama ul li{
+        border-top: 0;
+
+    }
+    .onama ul {
+        column-count: 4;
+    }
+    
+    #NasloviH1{
+        padding-top: 1em;
+    }
+    .onama h2{
+        padding: 0;
+        display: -webkit-inline-box;
+    }
+    .onama p{
+        padding-top: 0;
+        max-height: 290px;
+        border: 0;
+
+    }
+    .onama div p{
+        padding-top: 0;
+    }
+    #portfolio{
+        display: inline-block;
+        column-count: 3;
+        column-gap: .1em;
+        padding-bottom: 2em;
+        background: #f2f2f2;
+        width: 70%;
+        margin-right: 6em;
+    }
+    #portfolio img{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        padding-right: 0;
+        margin-left: 1em;
+    }
+    .kontaktforma {
+        background: #fff;
+    }
+    i.fas.fa-chevron-up{
+    left: 95%;
+    }
+   
+  }
+  @media only screen and (min-width:450px) and (max-width:700px){
+    ul.navTekst{
+        left: 20%;
+        top: -11%;
+    
+    }
+    ul.navTekst2 {
+        margin-top: 4%;
+    }
+    #portfolio img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        padding-right: 0;
+        margin-left: 1em;
+    }
+    .Showcase2 img{
+        margin-left: 3em;
+    }
+    #portfolio{
+        display: inline-block;
+        column-count: 3;
+        column-gap: .1em;
+        padding-bottom: 2em;
+        background: #f2f2f2;
+        width: 100%;
+        
+    }
+ 
+  }
+  @media (min-width: 1281px) {
+    .onama h2{
+        display: inline-grid;
+    }
+  
+    }
+    @media screen and (min-width: 1600px){
+    
+        .onama p{
+            width: 350px;
+        }
+        i.fas.fa-chevron-up {
+            left: 90%;
+        }
+    
+    }
+
+    @media screen and (min-width: 1900px){
+        .onama p{
+            width: auto;
+        }
+        ul.navTekst{
+            margin-top: 3.5%;
+        }
+        ul.navTekst2{
+            margin-top: 1.2%;
+        }
+        #portfolio{
+            margin-right: 0em;
+
+        }
+    }
+
+

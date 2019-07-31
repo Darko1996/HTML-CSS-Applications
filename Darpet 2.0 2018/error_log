@@ -1,0 +1,39 @@
+[14-Aug-2018 11:13:42 Europe/Zagreb] PHP Warning:  mysql_real_escape_string(): Access denied for user 'darpetdevcom'@'localhost' (using password: NO) in /home/darpetdevcom/public_html/contact.php on line 4
+[14-Aug-2018 11:13:42 Europe/Zagreb] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/darpetdevcom/public_html/contact.php on line 4
+[14-Aug-2018 11:13:42 Europe/Zagreb] PHP Warning:  mysql_real_escape_string(): Access denied for user 'darpetdevcom'@'localhost' (using password: NO) in /home/darpetdevcom/public_html/contact.php on line 5
+[14-Aug-2018 11:13:42 Europe/Zagreb] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/darpetdevcom/public_html/contact.php on line 5
+[14-Aug-2018 11:13:42 Europe/Zagreb] PHP Warning:  mysql_real_escape_string(): Access denied for user 'darpetdevcom'@'localhost' (using password: NO) in /home/darpetdevcom/public_html/contact.php on line 6
+[14-Aug-2018 11:13:42 Europe/Zagreb] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/darpetdevcom/public_html/contact.php on line 6
+[14-Aug-2018 11:30:02 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 3
+[14-Aug-2018 11:30:02 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 4
+[14-Aug-2018 11:30:02 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 5
+[14-Aug-2018 11:30:02 Europe/Zagreb] PHP Fatal error:  Class 'Mail' not found in /home/darpetdevcom/public_html/contact.php on line 16
+[14-Aug-2018 11:32:01 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 3
+[14-Aug-2018 11:32:01 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 4
+[14-Aug-2018 11:32:01 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 5
+[14-Aug-2018 11:32:01 Europe/Zagreb] PHP Fatal error:  Class 'Mail' not found in /home/darpetdevcom/public_html/contact.php on line 16
+[14-Aug-2018 12:32:40 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 3
+[14-Aug-2018 12:32:40 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 4
+[14-Aug-2018 12:32:40 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 5
+[14-Aug-2018 12:32:40 Europe/Zagreb] PHP Fatal error:  Class 'Mail' not found in /home/darpetdevcom/public_html/contact.php on line 16
+[14-Aug-2018 13:29:16 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 3
+[14-Aug-2018 13:29:16 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 4
+[14-Aug-2018 13:29:16 Europe/Zagreb] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/darpetdevcom/public_html/contact.php on line 5
+[14-Aug-2018 13:29:16 Europe/Zagreb] PHP Fatal error:  Class 'Mail' not found in /home/darpetdevcom/public_html/contact.php on line 16
+[16-Aug-2018 07:12:02 Europe/Zagreb] PHP Fatal error:  Non-static method mysqli::real_escape_string() cannot be called statically in /home/darpetdevcom/public_html/contact.php on line 3
+[16-Aug-2018 07:16:27 Europe/Zagreb] PHP Fatal error:  Class 'Mail' not found in /home/darpetdevcom/public_html/contact.php on line 16
+[16-Aug-2018 12:21:26 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '@' in /home/darpetdevcom/public_html/contact.php on line 15
+[16-Aug-2018 12:22:37 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '@' in /home/darpetdevcom/public_html/contact.php on line 17
+[16-Aug-2018 12:23:54 Europe/Zagreb] PHP Warning:  require(/home/darpetdevcom/public_html/PhpMailer/autoload.php): failed to open stream: No such file or directory in /home/darpetdevcom/public_html/contact.php on line 2
+[16-Aug-2018 12:23:54 Europe/Zagreb] PHP Warning:  require(/home/darpetdevcom/public_html/PhpMailer/autoload.php): failed to open stream: No such file or directory in /home/darpetdevcom/public_html/contact.php on line 2
+[16-Aug-2018 12:23:54 Europe/Zagreb] PHP Fatal error:  require(): Failed opening required '/home/darpetdevcom/public_html/PhpMailer/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/darpetdevcom/public_html/contact.php on line 2
+[16-Aug-2018 12:24:36 Europe/Zagreb] PHP Warning:  require_once(PhpMailer/autoload.php): failed to open stream: No such file or directory in /home/darpetdevcom/public_html/contact.php on line 2
+[16-Aug-2018 12:24:36 Europe/Zagreb] PHP Fatal error:  require_once(): Failed opening required 'PhpMailer/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/darpetdevcom/public_html/contact.php on line 2
+[16-Aug-2018 12:25:34 Europe/Zagreb] PHP Warning:  require_once(/home/darpetdevcom/PhpMailer/composer/autoload_real.php): failed to open stream: No such file or directory in /home/darpetdevcom/PhpMailer/autoload.php on line 5
+[16-Aug-2018 12:25:34 Europe/Zagreb] PHP Fatal error:  require_once(): Failed opening required '/home/darpetdevcom/PhpMailer/composer/autoload_real.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/darpetdevcom/PhpMailer/autoload.php on line 5
+[16-Aug-2018 12:26:36 Europe/Zagreb] PHP Warning:  require_once(/home/darpetdevcom/PhpMailer/composer/autoload_real.php): failed to open stream: No such file or directory in /home/darpetdevcom/PhpMailer/autoload.php on line 5
+[16-Aug-2018 12:26:36 Europe/Zagreb] PHP Fatal error:  require_once(): Failed opening required '/home/darpetdevcom/PhpMailer/composer/autoload_real.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/darpetdevcom/PhpMailer/autoload.php on line 5
+[16-Aug-2018 12:36:20 Europe/Zagreb] PHP Fatal error:  Class 'PHPMailer' not found in /home/darpetdevcom/public_html/contact.php on line 9
+[17-Aug-2018 13:46:12 Europe/Zagreb] PHP Warning:  require_once(home/darpetdevcom/PhpMailer/libs/vendor/autoload.php): failed to open stream: No such file or directory in /home/darpetdevcom/public_html/contact.php on line 4
+[17-Aug-2018 13:46:12 Europe/Zagreb] PHP Fatal error:  require_once(): Failed opening required 'home/darpetdevcom/PhpMailer/libs/vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/darpetdevcom/public_html/contact.php on line 4
+[17-Aug-2018 15:21:32 Europe/Zagreb] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/darpetdevcom/public_html/contactform.php:13) in /home/darpetdevcom/public_html/contactform.php on line 14

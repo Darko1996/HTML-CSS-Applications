@@ -1,0 +1,119 @@
+
+
+/* slider */
+html, body {
+  background: #F7F5E6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.slider {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.slide_viewer {
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background: blue;
+}
+
+.slide:nth-of-type(2) {
+  background: blue;
+}
+
+.slide:nth-of-type(3) {
+  background: #C75534;
+}
+
+.slide:nth-of-type(4) {
+  background: #D1D1D4;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
+ /* kraj slajdera */
+
+
+/*
+ .drustveneMreze ul li{
+	list-style-type: none;
+	display:inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	left: 400px;
+}
+
+
+footer {
+	background-color: #041c35;
+	opacity: 0.8;
+	height: 170px;
+	margin-left:-10px;
+	margin-right: -10px;
+	margin-bottom: -10px;	
+	position: relative;
+	bottom: -800px;
+	box-shadow: 0 0 20px 2px black;
+}
+
+
+.facebook{
+	position: relative;
+	left: 255px;
+	top: 20px;
+	cursor: pointer;
+	z-index: -2;
+}
+.instagram{
+	position: relative;
+	top: -20px;
+	left: 240px;
+	cursor: pointer;
+}
+.google{
+	position: relative;
+	top: 20px;
+	left: 225px;
+	cursor: pointer;
+}
+.linkin{
+	position: relative;
+	top: -20px;
+	left: 210px;
+	cursor: pointer;
+}
+*/
+

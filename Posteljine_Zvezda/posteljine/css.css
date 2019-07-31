@@ -1,0 +1,275 @@
+/* core styles */
+
+body{
+    margin: 0;
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,"AppleGothic",sans-serif;
+    background:white;
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+/*Header showcase */
+
+#showcase{
+    max-height: 250px;
+    color: #333;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: -2px 2px 10px black;
+    transition: .20s;
+    z-index: 999;   
+}
+#showcase .logo img{
+    width: 201px;
+    height: 90px;
+    display: inline;
+    padding: .5em .5em .0 .5em;
+    margin-top: 3em;
+    
+}
+
+ul.navTekst{
+    padding-left: 0px;
+    display: inline;
+    margin: 0;
+}
+#showcase li{
+    list-style: none;
+    padding: .5em;
+    display: inline-block;
+    margin-left: .5em;
+    color: #333;
+    
+}
+#showcase li:hover{
+    color: #0273ea;
+}
+#trakica{
+    position: absolute;
+    left: 90%;
+    padding-top: 1em;
+}
+#trakica i{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: -1em;
+    color: #0273ea;
+    padding: .2em .5em .2em .5em;
+    transition: .45s;
+}
+#trakica i:hover{
+    color: #e8a60d;
+}
+a{
+    text-decoration: none;
+}
+
+/* Animirani header na scroll */
+.trakica2{
+    display: none;
+}
+
+.showcase2{
+    height: 100px;
+    position:fixed;
+    width: 100%;
+    margin-top: -1em;
+    z-index: 999;
+}
+.logo2{
+    width: 100%;
+    display: inline; 
+}
+#showcase .logo2 img{
+    width: 105px;
+    height: 50px;
+    margin-top: 1.5em;
+    margin-left: -60%;
+    display: inline-block; 
+    
+}
+ul.navTekst2 li{
+    font-size: 13px;
+    padding: .2em !important;
+}
+ul.navTekst2{
+    display: inherit;
+    margin-top: -2.5em;
+    margin-left: 30%;
+    padding-left: 1em;
+}
+
+/* section b */
+
+#section-b{
+padding-bottom: 3em;
+}
+#section-b ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#section-b li{
+    margin-bottom: -2em;
+}
+.card-content{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+#Proizvodi {
+    margin: 2em;
+    padding: 2em;
+}
+#Proizvodi p{
+    display: block;
+}
+#Proizvodi img{
+    display: inline;
+    width: 100%;
+    height: auto;
+    transition: .45s;
+}
+#Proizvodi img:hover{
+    cursor: pointer;
+    background-color: #eae8e8;
+    border-radius: 10em;
+}
+#Proizvodi p{
+    color: #333;
+}
+i.fas.fa-chevron-circle-up{
+    font-size: 35px;
+    color: #0273ea;
+    display: none;
+}
+.strelica2{
+    font-size: 35px;
+    color: #0273ea;
+    position: fixed ;
+    margin-left: 30% ;
+    margin-top: 90% ;
+    padding: .2em;
+    display: inline-block !important;
+    transition: .45s;
+}
+.fas.fa-chevron-circle-up:hover{
+    color: #e8a60d;
+}
+/* footer */
+
+#main-footer{
+    padding: 2em;
+    border-top: 1px solid #333;
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+}
+#main-footer a{
+    color: #0273ea;
+    text-decoration: none;
+}
+
+
+@media(min-width:700px){
+    .grid{
+        display: grid;
+       /*grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr; */
+    }
+    
+    /*.card-content, #section-b ul{
+        grid-column: 2/4;
+    }*/
+    
+
+    #section-b #Proizvodi{
+        columns: 4;
+        column-gap: 2em;
+    }
+    #Onama p{
+    line-height: 2;
+    padding-right: 6em;
+    padding-left: 6em;
+    }
+    .card-content {
+        margin-top: 2em;
+    }
+    
+    #Proizvodi img{
+        width: 100%;
+        height: 100%;
+    }
+  
+    
+    img{
+        width: 100%;
+    }
+    #showcase .logo2 img{
+    margin-top: 1.2em;
+    transition: .45s;
+    }
+    ul.navTekst2{
+        margin-left: 50%;
+        margin-top: -2.3em;
+    }
+    ul.navTekst2 li{
+        font-size: 15px;
+        transition: .45s;
+    }
+    ul.navTekst2 li:hover,#showcase li:hover{
+        box-shadow: 0px -2px #0273ea;
+    }
+
+    #trakica i{
+        margin-left: -.5em;
+    }
+    body{
+        font-size: 1.3em;
+    }
+    .strelica2{
+        position: fixed;
+        margin-left: 40% ;
+        margin-top: 30% ;
+        display: inline-block !important;
+        transition: .45s;
+    }
+    #Proizvodi{
+        margin: 0;
+        margin-top: 5em;
+    }
+    #Onama{
+        margin-top: 4em;
+    }
+   
+}
+
+/* responsive za vece rezolucije 4k */
+@media screen and (min-width: 1600px) {
+    .navTekst2{
+        margin-top: 2%;
+    }
+  }
+    @media screen and (min-width: 1900px) {
+        .proizvodi h2::after{
+            margin-left: 33.5em;
+        }
+    }
+        @media (min-width: 2000px) {
+            .proizvodi h2::after{
+                margin-left: 45.9em;
+            }
+            .navTekst2 {
+                margin-top: 1.5%;
+            }
+        }
